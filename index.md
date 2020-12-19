@@ -1,1 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 
+        <title>Pen Shop</title>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark" id="top-navbar">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" id="closeMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Pen Brands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Latest Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Super Specials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Limited Editions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Vintage Pens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Back Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.fountainpenhospital.com/accessories/accessories.asp" class="navlink">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.fountainpenhospital.com/accessories/accessories.asp?TYP=ink" class="navlink">Ink & Refills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Repairs & Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Gifts & Engraving</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navlink">Our Gift Finder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="history.html" class="navlink">Our History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="catalog.html" class="navlink">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="customer.html" class="navlink" id="customer-service">Customer Service</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <a href="index.html" id="home"><ion-icon name="home" id="home"></ion-icon></a>
+            <p id="phone-number">1-800-253-PENS</p>
+            <ion-icon name="cart" id="cart"></ion-icon>
+        </nav>
+
+
+        <div class="container logo"><img id="banner" src="Assets/Banner-Top.gif" alt=""></div>
+        
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="row">
+                <form class="form-inline">
+                    <div class="col">
+                        <input class="form-control" type="search" placeholder="search" aria-label="search">
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-light my-sm-0" type="submit" id="search-button">Search</button>
+                        </div>
+                </form>
+            </div>
+            
+        </nav>
+
+        <div class="row justify-content-center" data-toggle="modal" data-target="#shipping-modal" id="shipping-row">Free Shipping $75+ - click here for info
+        </div>
+
+        <div class="container">
+        <div class="alert alert-dark alert-dismissible fade show" role="alert">
+            <strong>COVID-19 UPDATE: Extended Holiday Hours</strong>
+            <p>Our offices in NYC are now staffed from Monday through Friday, 8am - 5:30pm NY time. Though we will continue to be closed to the public per NYS requirements, we are now offering curbside pick-up of your orders during business hours. We now ship orders Monday through Friday. Orders are being accepted on our website 24/7, or by phone at 800-253-7367 during business hours. You may continue to reach us by email at info@fountainpenhospital.com.</p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true" id="close-alert">&times;</span>
+              </button>
+          </div>
+        </div>
+
+        
+        <div class="row" id="row-test">
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://www.fountainpenhospital.com/collections/collection.asp?CK=2444&MFG=35"><img class="card-img-top" src="Assets/elvis-image.svg" alt=""></a>
+                    <div class="card-body">
+                        <a href="https://www.fountainpenhospital.com/collections/collection.asp?CK=2444&MFG=35"><h5 class="card-title">Montblanc Elvis Presley</h5></a>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://www.fountainpenhospital.com/collections/collection.asp?CK=2450&MFG=21"><img class="card-img-top" src="Assets/montegrappa.svg" alt=""></a>
+                    <div class="card-body">
+                        <a href="https://www.fountainpenhospital.com/collections/collection.asp?CK=2450&MFG=21"><h5 class="card-title">Feature: Montegrappa Fortuna Ten Commandments</h5></a>
+                        <p class="card-text">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://www.fountainpenhospital.com/limited_edition/limited_edition.asp?MFG=35"><img class="card-img-top" src="Assets/victor-hugo.svg" alt=""></a>
+                    <div class="card-body">
+                        <a href="https://www.fountainpenhospital.com/limited_edition/limited_edition.asp?MFG=35"><h5 class="card-title">Feature: Montblanc Victor Hugo</h5></a>
+                        <p class="card-text">
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://www.fountainpenhospital.com/manufacturers/manufacturer.asp?MFG=16"><img class="card-img-top" src="Assets/faber-castell.svg" alt=""></a>
+                    
+                    <div class="card-body">
+                        <a href="https://www.fountainpenhospital.com/manufacturers/manufacturer.asp?MFG=16"><h5 class="card-title">25% off Faber-Castell</h5></a>
+                        <p class="card-text">
+                    
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="catalog.html"><img class="card-img-top ml-2" src="Assets/Catalog.svg" alt=""></a>
+                    
+                    <div class="card-body">
+                        <a href="catalog.html"><h5 class="card-title">Holiday Catalog</h5></a>
+                        
+                        <p class="card-text">
+                        </p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://goo.gl/maps/mFKL1psSMD93CQg76" target="_blank"><img class="card-img-top" src="Assets/showroom.svg" alt=""></a>
+                    
+                    <div class="card-body">
+                        <a href="https://goo.gl/maps/mFKL1psSMD93CQg76" target="_blank"><h5 class="card-title">Showroom Virtual Tour</h5></a>
+                        
+                        <p class="card-text">
+                        </p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://www.fountainpenhospital.com/accessories/accessories.asp?TYP=ink"><img class="card-img-top" src="Assets/ink.svg" alt=""></a>
+                    
+                    <div class="card-body">
+                        <a href="https://www.fountainpenhospital.com/accessories/accessories.asp?TYP=ink"><h5 class="card-title">Ink & Refills</h5></a>
+                        <p class="card-text">
+                        
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 m-0 p-0" id="col-test"> 
+                <div class="card">
+                    <a href="https://www.fountainpenhospital.com/accessories/accessories.asp"><img class="card-img-top ml-2" src="Assets/accessories.svg" alt=""></a>
+                    
+                    <div class="card-body">
+                        <a href="https://www.fountainpenhospital.com/accessories/accessories.asp"><h5 class="card-title">Accessories</h5></a>
+                        <p class="card-text">
+                        
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="last-row">
+            <h4>Best Price Guarantee</h4>
+            <p>Remember, Fountain Pen Hospital will beat any price from an authorized USA dealer on in-stock items! Call 800-253-7367 to speak to a representative.</p>
+            <h4>Our Location:</h4>
+        </div>
+        <div class="row" id="maps">
+            <div class="col">
+                <img src="Assets/overview_map.gif" class="imgmap" alt="">
+            </div>
+            <div class="col">
+                <img src="Assets/map2.gif" class="imgmap" alt="">
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-dark bg-dark" id="footer">
+            <a href="https://www.facebook.com/FountainPenHospital/" target="_blank"><img src="Assets/facebook-tile.svg" class="footer-icon" alt=""></a>
+            
+            <a href="https://www.youtube.com/user/FountainPenHospital" target="_blank"> <img src="Assets/youtube_social_circle_red.png" alt="" id="youtube"></a>
+           
+            
+            <a href="" data-toggle="modal" data-target="#zagat-modal"><img src="Assets/zagat-icon.svg" class="footer-icon" alt=""></a>
+            <span id="news" class="footer-icon">News</span>
+            
+        </nav>
+
+        <div class="modal" id="shipping-modal">
+            <div class="modal-dialog">
+                <div class="modal-content shipping-modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Free Shipping with $75+ purchase! USA orders only. Some restrictions apply. Ends 12/31/2020. Otherwise below shipping options apply.</h2>
+                        <button type="button" class="close" data-dismiss="modal"><span>&times</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Assets/Shipping.svg" alt="">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="zagat-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span>&times</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Assets/zagatrated.jpg" id="zagat-rated" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    </body>
+    <script>
+        $(function() {
+            $('body').click(function(e) {
+                
+                if(e.target.getAttribute("class") === "navbar-collapse" || $(e.target).parents(".navbar-collapse").length>0) {
+
+                }
+                else
+                {
+                    if($(".navbar-collapse").hasClass("show") == true) 
+                    {
+                        $(".navbar-toggler")[0].click();
+                    }
+                }
+            });
+        });
+    </script>
+</html>
