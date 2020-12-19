@@ -201,3 +201,8 @@ a {
     border: solid 1px darkgray;
     box-shadow: 20px 20px 5px darkgray;
 }
+
+@media only screen and (max-width: 576px) {
+    * {
+        font-size: 12px;
+}
