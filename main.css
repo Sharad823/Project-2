@@ -203,11 +203,12 @@ a {
     transition: .5s;
 }
 
-.imgmap:hover {
-    transform: scale(1.5);
-}
-
 @media only screen and (max-width: 576px) {
     * {
         font-size: 12px;
+      }
+    
+    .imgmap:hover {
+    transform: scale(1.5);
+      }   
 }
