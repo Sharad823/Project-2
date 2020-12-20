@@ -200,6 +200,11 @@ a {
 .imgmap {
     border: solid 1px darkgray;
     box-shadow: 20px 20px 5px darkgray;
+    transition: .5s;
+}
+
+.imgmap:hover {
+    transform: scale(2);
 }
 
 @media only screen and (max-width: 576px) {
